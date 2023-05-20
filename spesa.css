@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Anton&family=Lilita+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    position: relative;
+    top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+    width: 100%;
+    color: rgb(34, 136, 0);
+}
+
+#container0{
+    width: 400px;
+    height: 400px;
+     margin: auto;
+   
+}
+
+#container1{
+    border-radius: 10px;
+    position: relative;
+    top: 50px ;
+    text-align: center;
+    width: 400px;
+    height: 140px;
+    background-color: rgb(234, 234, 234);
+    -webkit-box-shadow: 1px 5px 15px -3px #000000;
+    -moz-box-shadow: 1px 5px 15px -3px #000000;
+    -o-box-shadow: 1px 5px 15px -3px #000000;
+    box-shadow: 1px 5px 15px -3px #000000;
+    background-color: #fff;
+    
+}
+
+#labelSupermercato{
+    font-family: 'Lilita One', cursive;
+    position: relative;
+    top: 5px;
+
+}
+
+
+#creaLista{
+
+    position: relative;
+    top: 30px;
+    background-color: rgb(34, 136, 0);
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+   cursor: pointer;
+    font-family: 'Lilita One', arial;
+    text-align: center;
+}#creaLista:hover{
+    background-color: #ffffff;
+    border: rgb(34, 136, 0) 1px solid ;
+    color: rgb(34, 136, 0);
+    transition: 0.3s ease;
+}
+
+#supermercato{
+    position: relative;
+    top: 15px;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #797979;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+}
+
+#messaggio_uno{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-family: verdana;
+    color: #228700;
+}
+
+#Layer_1{
+    fill: #228700 ;
+}
+
+
+/*--------------------------*/
+
+#container2{
+    border-radius: 10px;
+    position: relative;
+    top: 50px ;
+    text-align: center;
+    width: 400px;
+    min-height: 42%;
+    background-color: rgb(234, 234, 234);
+    -webkit-box-shadow: 1px 5px 15px -3px #000000;
+    -moz-box-shadow: 1px 5px 15px -3px #000000;
+    -o-box-shadow: 1px 5px 15px -3px #000000;
+    box-shadow: 1px 5px 15px -3px #000000;
+    background-color: #fff;
+    overflow-y: none;
+    overflow-x: hidden;
+}#container2::-webkit-scrollbar {
+    width: 5px;
+    background-color: #c5c5c5;
+  }
+
+.elementiLista{
+    list-style: none;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    color: #228700;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.rimuoviElemento{
+    position: relative;
+    left: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color: #228700;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+
+#salvaLista{
+    background-color: #228700;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    bottom: 1px;
+    left: 17px;
+    cursor: pointer;
+    
+}
+
+#aggiungi{
+    background-color: #228700;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+#textbox{
+    width: 380px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #797979;
+    position: relative;
+    left: 9px;
+    position: relative;
+    top: 20px;
+    background-color: #fff;
+}
+
+#inserisciProdotto{
+
+    width: 230px;
+    height: 36px ;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+
+#messaggio_due{
+
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Lilita One', cursive;
+    color: #228700;
+}
+
+#messaggio_tre{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-family: arial;
+    color: #228700;
+}
+
+#labelProdotti{
+    position: relative;
+    top: 10px;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Lilita One', cursive;
+    
+}
+
+#messaggio_quattro{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-family: arial;
+    color: #228700;
+}
+
+#ripristinaListe{
+    position: relative;
+    top: 70px;
+    background-color: #228700;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
