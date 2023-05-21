@@ -219,7 +219,9 @@
 #ripristinaListe{
     position: relative;
     top: 70px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #228700;
     font-family: 'Anton', sans-serif; 
     font-family: 'Lilita One', cursive;

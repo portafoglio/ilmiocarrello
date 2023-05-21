@@ -57,7 +57,7 @@
 
     sezioneDue.style.display = "none";
     messaggioCinque.style.display="none";
-    ripristinaListeButton.style.display="none";
+    
    
 
     function creaLista() {
@@ -69,7 +69,7 @@
             sezioneDue.style.display = "block";
             messaggioUno.style.display = "none";
             sezioneUno.style.display = "none";
-            ripristinaListeButton.style.display = "block";
+            ripristinaListeButton.style.display = "none";
             messaggioDue.innerHTML =  nomeSupermercato;
         }
        
@@ -112,11 +112,12 @@
             prodotti.push(lista[i].firstChild.textContent);
         }
         localStorage.setItem("listaSpesa", JSON.stringify(prodotti));
+        
     }
 
     function ripristinaListe() {
         let listaSalvata = localStorage.getItem("listaSpesa");
-        
+        let nomeSupermercato = localStorage.getItem("nomeSupermercato");
 
 
         if (listaSalvata) {
@@ -129,6 +130,11 @@
             ripristinaListeButton.style.display="none";
             messaggioCinque.style.display="block";
             messaggioQuattro.style.display="none";
+            sezioneDue.style.display="block";
+            sezioneUno.style.display="none";
+            messaggioDue.style.display="block";
+           
+            
         }
 
         
