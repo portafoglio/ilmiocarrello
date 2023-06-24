@@ -234,11 +234,17 @@
 }
 
 #messaggio_quattro{
-    position: relative;
-    top: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
     text-align: center;
     font-family: arial;
-    color: #228700;
+    color: #ffffff;
+    background-color: #228700;
+    width: 100%;
+    padding: 20px;
+    display: none;
+    
 }
 
 #ripristinaListe{
@@ -280,8 +286,31 @@
     width: 20px;
 }
 
+#listeSalvate{
 
+    position: relative;
+    top: 200px;
+    width: 95%;
+    height: 300px ;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: #228700 1px solid;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lilita One', cursive;
+    color: #a4a4a4;
+}
 
+#titleListe{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lilita One', cursive;
+    color: #228700;
+    position: relative;
+    top: 170px;
+    width: 95%;
+}
 
 
 
